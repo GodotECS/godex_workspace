@@ -4,3 +4,6 @@
 [submodule "godot"]
 	path = godot
 	url = https://github.com/GodotECS/godot.git
+[submodule "tests"]
+	path = tests
+	url = https://github.com/GodotECS/godex_tests.git
