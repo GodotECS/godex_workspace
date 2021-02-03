@@ -15,7 +15,7 @@ git remote set-url --push godotengine https://example.com/
 git fetch godotengine
 
 echo -e "Work"
-export ORIGINAL_BRANCH=ecs-scripts-next
+export ORIGINAL_BRANCH=ecs-scripts-main
 export MERGE_REMOTE=godot-ecs
 export MERGE_BRANCH=ecs-main
 git checkout $ORIGINAL_BRANCH --force
