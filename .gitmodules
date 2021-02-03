@@ -1,0 +1,6 @@
+[submodule "modules/godex"]
+	path = modules/godex
+	url = https://github.com/GodotECS/godex.git
+[submodule "godot"]
+	path = godot
+	url = https://github.com/GodotECS/godot.git

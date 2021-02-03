@@ -1,0 +1,2 @@
+stage extended-fire remotes/godotengine/master
+merge extended-fire remotes/godot-ecs/ecs-main
