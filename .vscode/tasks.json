@@ -7,7 +7,7 @@
             "label": "build",
             "type": "shell",
             "command": "scons platform=windows -j16 bits=64 use_mingw=yes use_llvm=yes use_thinlto=yes LINKFLAGS='-Wl,-pdb=' CCFLAGS='-g -gcodeview' debug_symbols=no deprecated=no deprecated=no target=release_debug custom_modules=modules",
-            "problemMatcher": [],
+            "problemMatcher": ["$gcc"],
             "options": {
                 "cwd": "${workspaceFolder}/godot"
             },
@@ -15,6 +15,6 @@
                 "kind": "build",
                 "isDefault": true
             }
-        }
+        }s
     ]
 }
