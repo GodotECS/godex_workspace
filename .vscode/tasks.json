@@ -15,15 +15,6 @@
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "label": "clean",
-            "type": "shell",
-            "command": "scons --clean platform=windows bits=64 use_mingw=yes use_llvm=yes target=debug custom_modules=../modules",
-            "problemMatcher": [],
-            "options": {
-                "cwd": "${workspaceFolder}/godot"
-            }
         }
     ]
 }
