@@ -20,7 +20,7 @@ export MERGE_REMOTE=godot-ecs
 export MERGE_BRANCH=ecs-main
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
-./thirdparty/git-assembler --assemble --verbose --recreate
+./scripts/thirdparty/git-assembler --assemble --verbose --recreate
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 export MERGE_TAG=$(echo GodotECS.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
