@@ -1,2 +1,2 @@
-stage godot-ecs remotes/godotengine/master
-merge godot-ecs remotes/godot-ecs/customizable_iterator
+stage ecs-main remotes/godotengine/master
+merge ecs-main remotes/godot-ecs/customizable_iterator
