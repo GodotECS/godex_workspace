@@ -20,6 +20,7 @@ export MERGE_REMOTE=godot-ecs
 export MERGE_BRANCH=ecs-main
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
+chmod +x ./thirdparty/git-assembler
 ./thirdparty/git-assembler --assemble --verbose --recreate
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
