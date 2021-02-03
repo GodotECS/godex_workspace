@@ -6,10 +6,10 @@
     "configurations": [    
         {
             "name": "Launch",
-            "type": "cppdbg",
+            "type": "cppvsdbg",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "args": ["--path", "tests/game", "-e"],
+            "cwd": "${workspaceFolder}/godot/",
+            "args": ["--path", "../tests/game", "-e"],
             "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64"
         }
     ]
