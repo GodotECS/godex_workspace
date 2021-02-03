@@ -7,11 +7,11 @@ git stash
 echo -e "Checkout remotes"
 git remote rm godot-ecs || true
 git remote add godot-ecs https://github.com/GodotECS/godot
-git remote set-url --push godot-ecs https://example.com/
+git remote set-url --push godot-ecs git@github.com:GodotECS/godot
 git fetch godot-ecs
 git remote rm godotengine || true
 git remote add godotengine https://github.com/godotengine/godot
-git remote set-url --push godotengine https://example.com/
+git remote set-url --push godotengine https://example.com
 git fetch godotengine
 
 echo -e "Work"
