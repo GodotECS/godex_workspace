@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "args": [],
+            "args": ["--path", "tests/game", "-e"],
             "program":  "${workspaceFolder}/godot/bin/godot.windows.opt.tools.64"
         }
     ]
